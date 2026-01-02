@@ -7,7 +7,7 @@
 ![Scikit Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
-### 📊 Data-Driven Grocery Store Optimization
+### Data-Driven Grocery Store Optimization
 
 _Make Kattangal's Grocery store Profitable using Apriori Algorithm and K-Means Clustering to help the shop owner in making Business decisions and better promotion strategies_
 
@@ -298,4 +298,4 @@ Customers are grouped based on:
 
 This project is for educational purposes.
 
-**Built as part of GDSC AIML learning track** 🚀
+**Built as part of GDSC AIML learning track**
