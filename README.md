@@ -1,6 +1,19 @@
+<div align="center">
+
 # Katangal Grocery Management System
 
-**Goal:** Make Kattangal's Grocery store Profitable using Apriori Algorithm and Clustering of Customers to help the shop owner in making Business decisions and better promotion strategies.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Scikit Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
+### 📊 Data-Driven Grocery Store Optimization
+
+_Make Kattangal's Grocery store Profitable using Apriori Algorithm and K-Means Clustering to help the shop owner in making Business decisions and better promotion strategies_
+
+[Dataset Overview](#dataset-overview) • [Market Basket Analysis](#1-market-basket-analysis-mba) • [EDA](#2-exploratory-data-analysis-eda) • [Customer Segmentation](#3-customer-segmentation-rfm--k-means)
+
+</div>
 
 ---
 
@@ -251,13 +264,13 @@ Customers are grouped based on:
 
 **A:** The top 5 essential items with their frequently associated products:
 
-| Item                 | Associated Items (Often Bought Together)       |
-| -------------------- | ---------------------------------------------- |
-| **Whole Milk**       | ['other vegetables', 'rolls/buns', 'sausage', 'soda'] |
-| **Other Vegetables** | ['rolls/buns', 'soda', 'tropical fruit', 'whole milk']                 |
-| **Rolls/Buns**       | ['other vegetables', 'root vegetables', 'soda', 'tropical fruit']    |
-| **Soda**             | ['other vegetables', 'rolls/buns', 'root vegetables', 'sausage']                                      |
-| **Yogurt**           | ['citrus fruit', 'other vegetables', 'rolls/buns', 'sausage']                                      |
+| Item                 | Associated Items (Often Bought Together)                          |
+| -------------------- | ----------------------------------------------------------------- |
+| **Whole Milk**       | ['other vegetables', 'rolls/buns', 'sausage', 'soda']             |
+| **Other Vegetables** | ['rolls/buns', 'soda', 'tropical fruit', 'whole milk']            |
+| **Rolls/Buns**       | ['other vegetables', 'root vegetables', 'soda', 'tropical fruit'] |
+| **Soda**             | ['other vegetables', 'rolls/buns', 'root vegetables', 'sausage']  |
+| **Yogurt**           | ['citrus fruit', 'other vegetables', 'rolls/buns', 'sausage']     |
 
 **Business Insight:** If a customer asks for Sausage and it's out of stock, they may skip buying Yogurt, Soda, whole milk and other vegetables too. These "connector" items prevent basket abandonment.
 
@@ -270,4 +283,19 @@ Customers are grouped based on:
 - **MBA:** Mlxtend (Apriori)
 - **Clustering:** Scikit-Learn (K-Means)
 
+---
 
+## References
+
+- [Apriori Algorithm - MLxtend Documentation](https://rasbt.github.io/mlxtend/user_guide/frequent_patterns/apriori/)
+- [K-Means Clustering - Scikit-Learn](https://scikit-learn.org/stable/modules/clustering.html#k-means)
+- [RFM Analysis for Customer Segmentation](https://www.investopedia.com/terms/r/rfm-recency-frequency-monetary-value.asp)
+- [Market Basket Analysis Explained](https://towardsdatascience.com/market-basket-analysis-using-apriori-algorithm/)
+
+---
+
+## License
+
+This project is for educational purposes.
+
+**Built as part of GDSC AIML learning track** 🚀
